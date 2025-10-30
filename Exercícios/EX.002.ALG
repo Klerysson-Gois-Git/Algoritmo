@@ -10,9 +10,11 @@ Var
 
 
 Inicio
+      escreva("Digite o seu nome: ")
+      leia(nome)
+      escreva("Informe sua idade: ")
+      leia(idade)
 
-      nome <- "José da Silva"
-      idade <- 27
       escreva("Seu nome é, ", nome, ", e sua idade é ", idade, " anos")
 
 
