@@ -35,8 +35,12 @@ caso "*"
      escreval("Resultado: ", multi)
 
 caso "/"
-     divisao := num1/num2
-     escreval("Resultado: ", divisao:2:2)
+     se(num2 <> 0)entao
+             divisao := num1/num2
+             escreval("Resultado: ", divisao:2:2)
+     senao
+          escreval("Erro: Divisão por zero não é permitido!")
+     fimse
 fimescolha
 
 Fimalgoritmo
